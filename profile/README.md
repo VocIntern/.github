@@ -29,8 +29,8 @@ Platform manajemen magang untuk menghubungkan mahasiswa D1,D2,D3, dan D4 di perg
 - MySQL
 
 ### Langkah-langkah
-* Pergi ke repository [project-web-magang](https://github.com/VocIntern/project-web-magang.git)
-* Pindah Branch dulu ke branch [landing_page](https://github.com/VocIntern/project-web-magang/tree/landingpage)
+* Pergi ke repository [project-web-magang(branch:landing_page)](https://github.com/VocIntern/project-web-magang/tree/landingpage)
+
 1. Clone repository:
    ```bash
    git clone https://github.com/VocIntern/project-web-magang.git
