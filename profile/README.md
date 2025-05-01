@@ -58,7 +58,8 @@ Berikut adalah hubungan antar entitas dalam sistem:
 
 Berikut adalah diagram visual dari hubungan entitas:
 
-![ERD Sistem Magang](project-web-magang/VocIntern_ERD.png) 
+![ERD Sistem Magang](![ERD Sistem Magang](.github/profile/VocIntern_ERD.png)
+ 
 
 ---
 
@@ -68,6 +69,9 @@ Berikut adalah diagram visual dari hubungan entitas:
 - **Backend**: Laravel 12.x
 - **Database**: MySQL
 - **Tools**: Composer, npm, Git
+
+
+---
 
 ## 📥 Instalasi
 
