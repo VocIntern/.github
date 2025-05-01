@@ -17,7 +17,7 @@ Platform manajemen magang untuk menghubungkan mahasiswa D1,D2,D3, dan D4 di perg
 
 ## 🗃️ Entity Relationship Diagram (ERD) - Sistem Magang Mahasiswa
 
-Dokumen ini berisi penjelasan mengenai struktur basis data sistem magang yang dirancang untuk menghubungkan mahasiswa dengan perusahaan. ERD ini dibuat menggunakan [Draw.io](https://draw.io) dan mencerminkan hubungan antar entitas utama dalam sistem.
+Dokumen ini berisi penjelasan mengenai struktur basis data sistem magang yang dirancang untuk menghubungkan mahasiswa dengan perusahaan.
 
 ---
 
@@ -58,9 +58,9 @@ Berikut adalah hubungan antar entitas dalam sistem:
 
 Berikut adalah diagram visual dari hubungan entitas:
 
-![ERD Sistem Magang](![ERD Sistem Magang](.github/profile/VocIntern_ERD.png)
- 
+![ERD Sistem Magang](.github/profile/VocIntern_ERD.png)
 
+ 
 ---
 
 
