@@ -58,7 +58,7 @@ Berikut adalah hubungan antar entitas dalam sistem:
 
 Berikut adalah diagram visual dari hubungan entitas:
 
-![ERD Sistem Magang](.github/profile/VocIntern_ERD.png)
+![ERD Sistem Magang](.VocIntern_ERD.png)
 
  
 ---
