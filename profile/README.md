@@ -14,6 +14,55 @@ Platform manajemen magang untuk menghubungkan mahasiswa D1,D2,D3, dan D4 di perg
 - Dashboard analitik untuk admin
 - Pembuatan laporan magang otomatis
 
+
+## 🗃️ Entity Relationship Diagram (ERD) - Sistem Magang Mahasiswa
+
+Dokumen ini berisi penjelasan mengenai struktur basis data sistem magang yang dirancang untuk menghubungkan mahasiswa dengan perusahaan. ERD ini dibuat menggunakan [Draw.io](https://draw.io) dan mencerminkan hubungan antar entitas utama dalam sistem.
+
+---
+
+### 📌 Daftar Entitas
+
+- <span style="background:#f0f0f0;border-radius:6px;padding:4px 8px;font-family:monospace;">users</span>  
+  Menyimpan data akun untuk semua pengguna, termasuk admin, mahasiswa, dan perusahaan.
+
+- <span style="background:#f0f0f0;border-radius:6px;padding:4px 8px;font-family:monospace;">mahasiswa</span>  
+  Menyimpan data detail mahasiswa yang mendaftar magang.
+
+- <span style="background:#f0f0f0;border-radius:6px;padding:4px 8px;font-family:monospace;">perusahaan</span>  
+  Menyimpan informasi perusahaan penyedia magang.
+
+- <span style="background:#f0f0f0;border-radius:6px;padding:4px 8px;font-family:monospace;">magang</span>  
+  Menyimpan informasi lowongan magang dari perusahaan.
+
+- <span style="background:#f0f0f0;border-radius:6px;padding:4px 8px;font-family:monospace;">pendaftaran_magang</span>  
+  Menyimpan data pendaftaran mahasiswa terhadap lowongan magang tertentu.
+
+- <span style="background:#f0f0f0;border-radius:6px;padding:4px 8px;font-family:monospace;">laporan</span>  
+  Menyimpan laporan mingguan kegiatan mahasiswa selama masa magang.
+
+---
+
+### 🧭 Struktur Relasi
+
+Berikut adalah hubungan antar entitas dalam sistem:
+
+- `users` ➝ satu ke satu dengan `mahasiswa` dan `perusahaan`
+- `perusahaan` ➝ satu ke banyak `magang`
+- `mahasiswa` ➝ banyak ke banyak `magang` (melalui `pendaftaran_magang`)
+- `pendaftaran_magang` ➝ satu ke banyak `laporan`
+
+---
+
+### 🖼️ Diagram ERD
+
+Berikut adalah diagram visual dari hubungan entitas:
+
+![ERD Sistem Magang](VocIntern_ERD.png) 
+
+---
+
+
 ## 💻 Teknologi yang Digunakan
 - **Frontend**: Bootstrap 5, jQuery, HTML5, CSS3
 - **Backend**: Laravel 12.x
