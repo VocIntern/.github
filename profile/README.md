@@ -19,7 +19,6 @@ Platform manajemen magang untuk menghubungkan mahasiswa D1,D2,D3, dan D4 di perg
 
 Dokumen ini berisi penjelasan mengenai struktur basis data sistem magang yang dirancang untuk menghubungkan mahasiswa dengan perusahaan.
 
----
 
 ### 📌 Daftar Entitas
 
@@ -58,10 +57,8 @@ Berikut adalah hubungan antar entitas dalam sistem:
 
 Berikut adalah diagram visual dari hubungan entitas:
 
-![ERD Sistem Magang](https://raw.githubusercontent.com/fathurencuy/project-web-magang/main/VocIntern_ERD.png)
+![VocIntern_ERD](https://github.com/user-attachments/assets/51e2f9d9-5ee7-4a22-b50f-bf2004c007cd)
 
- 
----
 
 
 ## 💻 Teknologi yang Digunakan
@@ -71,9 +68,8 @@ Berikut adalah diagram visual dari hubungan entitas:
 - **Tools**: Composer, npm, Git
 
 
----
-
 ## 📥 Instalasi
+
 
 ### Prasyarat
 - PHP 8.2+
